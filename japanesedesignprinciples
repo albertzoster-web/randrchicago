@@ -1,0 +1,1684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Can Japanese Design Principles Guide a Chicago Home Renovation?</title>
+
+<meta name="description" content="Explore how Japanese design principles can inspire a thoughtful Chicago home renovation through simplicity, natural materials, light, balance and functional spaces.">
+
+<style>
+:root{
+    --black:#171717;
+    --dark:#222222;
+    --text:#3d3d3d;
+    --muted:#727272;
+    --white:#ffffff;
+    --cream:#f6f4ef;
+    --warm:#ece7df;
+    --wood:#9a744b;
+    --wood-dark:#705238;
+    --line:#ded9d0;
+    --soft:#faf9f6;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    color:var(--text);
+    background:#fff;
+    line-height:1.7;
+}
+
+img{
+    width:100%;
+    display:block;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+.container{
+    width:min(1180px,92%);
+    margin:auto;
+}
+
+/* TOP BAR */
+
+.topbar{
+    background:var(--black);
+    color:#fff;
+    padding:9px 0;
+    font-size:11px;
+    letter-spacing:1.3px;
+}
+
+.topbar-inner{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.topbar a{
+    color:#fff;
+    opacity:.85;
+}
+
+/* NAV */
+
+.navbar{
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background:#fff;
+    border-bottom:1px solid #ededed;
+}
+
+.nav-inner{
+    min-height:78px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-weight:800;
+    font-size:23px;
+    letter-spacing:1.5px;
+    color:var(--black);
+}
+
+.logo span{
+    display:block;
+    font-size:8px;
+    font-weight:500;
+    letter-spacing:2.4px;
+    margin-top:-4px;
+}
+
+.nav-links{
+    display:flex;
+    gap:27px;
+    align-items:center;
+    font-size:12px;
+    font-weight:700;
+}
+
+.nav-links a:hover{
+    color:var(--wood-dark);
+}
+
+.nav-cta{
+    padding:12px 20px;
+    background:var(--wood);
+    color:#fff!important;
+}
+
+.nav-cta:hover{
+    background:var(--wood-dark);
+}
+
+/* HERO */
+
+.hero{
+    background:var(--cream);
+    padding:70px 0 85px;
+}
+
+.hero-grid{
+    display:grid;
+    grid-template-columns:.92fr 1.08fr;
+    gap:65px;
+    align-items:center;
+}
+
+.eyebrow{
+    color:var(--wood-dark);
+    text-transform:uppercase;
+    letter-spacing:2.5px;
+    font-size:11px;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.hero h1{
+    color:var(--black);
+    font-size:clamp(42px,5vw,68px);
+    line-height:1.04;
+    letter-spacing:-2px;
+    margin-bottom:25px;
+}
+
+.hero p{
+    max-width:560px;
+    color:#626262;
+    font-size:17px;
+    margin-bottom:30px;
+}
+
+.buttons{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+}
+
+.btn{
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    padding:14px 23px;
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:.4px;
+    transition:.25s ease;
+}
+
+.btn-primary{
+    background:var(--wood);
+    color:#fff;
+}
+
+.btn-primary:hover{
+    background:var(--wood-dark);
+    transform:translateY(-2px);
+}
+
+.btn-dark{
+    background:var(--black);
+    color:#fff;
+}
+
+.btn-dark:hover{
+    background:#333;
+    transform:translateY(-2px);
+}
+
+.hero-image{
+    position:relative;
+}
+
+.hero-image img{
+    height:600px;
+    object-fit:cover;
+}
+
+.image-caption{
+    position:absolute;
+    left:20px;
+    bottom:20px;
+    background:#fff;
+    padding:13px 18px;
+    font-size:10px;
+    text-transform:uppercase;
+    letter-spacing:1.5px;
+    box-shadow:0 10px 30px rgba(0,0,0,.12);
+}
+
+/* INTRO */
+
+.intro{
+    padding:90px 0;
+}
+
+.intro-grid{
+    display:grid;
+    grid-template-columns:.75fr 1.25fr;
+    gap:75px;
+}
+
+.label{
+    color:var(--wood-dark);
+    text-transform:uppercase;
+    letter-spacing:2.4px;
+    font-size:11px;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+h2{
+    color:var(--black);
+    font-size:clamp(32px,4vw,50px);
+    line-height:1.1;
+    letter-spacing:-1px;
+}
+
+.intro-copy{
+    font-size:17px;
+    color:#606060;
+}
+
+.intro-copy p{
+    margin-bottom:18px;
+}
+
+.answer-box{
+    background:var(--cream);
+    border-left:4px solid var(--wood);
+    padding:20px 22px;
+    margin:25px 0 30px;
+}
+
+.answer-box strong{
+    color:var(--black);
+}
+
+/* PRINCIPLES */
+
+.principles{
+    background:var(--soft);
+    padding:90px 0;
+}
+
+.heading{
+    max-width:750px;
+    margin-bottom:45px;
+}
+
+.heading p{
+    color:var(--muted);
+    margin-top:18px;
+}
+
+.principle-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:24px;
+}
+
+.card{
+    background:#fff;
+    border:1px solid var(--line);
+    transition:.3s ease;
+}
+
+.card:hover{
+    transform:translateY(-7px);
+    box-shadow:0 18px 40px rgba(0,0,0,.08);
+}
+
+.card img{
+    height:270px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:25px;
+}
+
+.card-number{
+    color:var(--wood-dark);
+    font-size:11px;
+    letter-spacing:2px;
+    font-weight:800;
+    margin-bottom:8px;
+}
+
+.card h3{
+    color:var(--black);
+    font-size:21px;
+    margin-bottom:10px;
+}
+
+.card p{
+    color:var(--muted);
+    font-size:14px;
+    margin-bottom:18px;
+}
+
+.text-link{
+    color:var(--wood-dark);
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:.5px;
+}
+
+/* BALANCE */
+
+.balance{
+    padding:90px 0;
+}
+
+.balance-grid{
+    display:grid;
+    grid-template-columns:1.05fr .95fr;
+    gap:60px;
+    align-items:center;
+}
+
+.balance-image img{
+    height:560px;
+    object-fit:cover;
+}
+
+.balance-copy p{
+    color:#606060;
+    margin:20px 0;
+}
+
+.points{
+    margin:25px 0 30px;
+}
+
+.point{
+    display:flex;
+    gap:14px;
+    padding:14px 0;
+    border-bottom:1px solid var(--line);
+}
+
+.point-icon{
+    width:24px;
+    height:24px;
+    flex:none;
+    border-radius:50%;
+    background:var(--wood);
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:11px;
+}
+
+/* CHICAGO */
+
+.chicago{
+    background:var(--black);
+    color:#fff;
+    padding:90px 0;
+}
+
+.chicago-grid{
+    display:grid;
+    grid-template-columns:.95fr 1.05fr;
+    gap:60px;
+    align-items:center;
+}
+
+.chicago h2{
+    color:#fff;
+}
+
+.chicago .label{
+    color:#c9a26e;
+}
+
+.chicago p{
+    color:#c0c0c0;
+    margin:20px 0;
+}
+
+.chicago-image img{
+    height:530px;
+    object-fit:cover;
+}
+
+.chicago-list{
+    margin:25px 0 30px;
+}
+
+.chicago-list div{
+    padding:13px 0;
+    border-bottom:1px solid #404040;
+    color:#e2e2e2;
+}
+
+/* MATERIALS */
+
+.materials{
+    padding:90px 0;
+    background:var(--cream);
+}
+
+.material-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:18px;
+    margin-top:45px;
+}
+
+.material{
+    background:#fff;
+    padding:25px;
+    border:1px solid var(--line);
+}
+
+.material-icon{
+    width:50px;
+    height:50px;
+    background:var(--warm);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:20px;
+    font-size:21px;
+}
+
+.material h3{
+    color:var(--black);
+    font-size:18px;
+    margin-bottom:8px;
+}
+
+.material p{
+    color:var(--muted);
+    font-size:13px;
+}
+
+/* RENOVATION */
+
+.renovation{
+    padding:90px 0;
+}
+
+.renovation-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+    align-items:center;
+}
+
+.renovation-image img{
+    height:530px;
+    object-fit:cover;
+}
+
+.steps{
+    margin:25px 0 30px;
+}
+
+.step{
+    display:grid;
+    grid-template-columns:48px 1fr;
+    gap:15px;
+    padding:17px 0;
+    border-bottom:1px solid var(--line);
+}
+
+.step-number{
+    color:var(--wood);
+    font-size:20px;
+    font-weight:800;
+}
+
+.step h3{
+    color:var(--black);
+    font-size:17px;
+    margin-bottom:4px;
+}
+
+.step p{
+    color:var(--muted);
+    font-size:13px;
+}
+
+/* FAQ */
+
+.faq{
+    background:var(--soft);
+    padding:90px 0;
+}
+
+.faq-heading{
+    text-align:center;
+    max-width:700px;
+    margin:auto;
+}
+
+.faq-wrap{
+    max-width:850px;
+    margin:45px auto 0;
+}
+
+details{
+    border-bottom:1px solid var(--line);
+}
+
+summary{
+    list-style:none;
+    cursor:pointer;
+    padding:22px 35px 22px 0;
+    font-weight:700;
+    color:var(--black);
+    position:relative;
+}
+
+summary::-webkit-details-marker{
+    display:none;
+}
+
+summary:after{
+    content:"+";
+    position:absolute;
+    right:0;
+    font-size:23px;
+    color:var(--wood);
+}
+
+details[open] summary:after{
+    content:"−";
+}
+
+.answer{
+    padding:0 40px 23px 0;
+    color:var(--muted);
+    font-size:14px;
+}
+
+/* CTA */
+
+.final-cta{
+    background:var(--wood);
+    color:#fff;
+    padding:75px 0;
+}
+
+.final-grid{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:40px;
+}
+
+.final-cta h2{
+    color:#fff;
+    max-width:720px;
+}
+
+.final-cta p{
+    max-width:650px;
+    margin-top:12px;
+    opacity:.9;
+}
+
+.final-cta .btn{
+    background:#fff;
+    color:var(--black);
+    white-space:nowrap;
+}
+
+.final-cta .btn:hover{
+    background:#f1f1f1;
+}
+
+/* FOOTER */
+
+footer{
+    background:var(--black);
+    color:#aaa;
+    padding:45px 0 25px;
+}
+
+.footer-grid{
+    display:grid;
+    grid-template-columns:1.5fr 1fr 1fr;
+    gap:50px;
+}
+
+footer h3{
+    color:#fff;
+    font-size:14px;
+    margin-bottom:15px;
+}
+
+footer p,
+footer a{
+    font-size:13px;
+    color:#aaa;
+}
+
+.footer-links{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+}
+
+.footer-links a:hover{
+    color:#fff;
+}
+
+.copyright{
+    border-top:1px solid #383838;
+    margin-top:35px;
+    padding-top:20px;
+    font-size:11px;
+}
+
+/* REVEAL */
+
+.reveal{
+    opacity:0;
+    transform:translateY(25px);
+    transition:opacity .7s ease, transform .7s ease;
+}
+
+.reveal.show{
+    opacity:1;
+    transform:translateY(0);
+}
+
+/* RESPONSIVE */
+
+@media(max-width:900px){
+
+    .nav-links{
+        display:none;
+    }
+
+    .hero-grid,
+    .intro-grid,
+    .balance-grid,
+    .chicago-grid,
+    .renovation-grid{
+        grid-template-columns:1fr;
+    }
+
+    .hero-image img{
+        height:450px;
+    }
+
+    .principle-grid{
+        grid-template-columns:1fr 1fr;
+    }
+
+    .material-grid{
+        grid-template-columns:1fr 1fr;
+    }
+
+    .final-grid{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .footer-grid{
+        grid-template-columns:1fr;
+    }
+}
+
+@media(max-width:600px){
+
+    .topbar{
+        display:none;
+    }
+
+    .hero{
+        padding:50px 0;
+    }
+
+    .hero h1{
+        font-size:42px;
+    }
+
+    .hero-image img{
+        height:360px;
+    }
+
+    .principle-grid,
+    .material-grid{
+        grid-template-columns:1fr;
+    }
+
+    .intro,
+    .principles,
+    .balance,
+    .chicago,
+    .materials,
+    .renovation,
+    .faq{
+        padding:65px 0;
+    }
+
+    .balance-image img,
+    .chicago-image img,
+    .renovation-image img{
+        height:380px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="topbar">
+    <div class="container topbar-inner">
+        <span>R&R CHICAGO DESIGN-BUILD</span>
+        <a href="https://randrchicago.com/remodeling/home-renovation">
+            CHICAGO HOME RENOVATION
+        </a>
+    </div>
+</div>
+
+
+<header class="navbar">
+
+    <div class="container nav-inner">
+
+        <a class="logo" href="https://randrchicago.com/remodeling/home-renovation">
+            R&R
+            <span>CHICAGO DESIGN-BUILD</span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="#principles">Principles</a>
+            <a href="#materials">Materials</a>
+            <a href="#chicago">Chicago</a>
+            <a href="#faq">FAQ</a>
+
+            <a class="nav-cta"
+               href="https://randrchicago.com/remodeling/home-renovation">
+                START A PROJECT
+            </a>
+        </nav>
+
+    </div>
+
+</header>
+
+
+<main>
+
+<!-- HERO -->
+
+<section class="hero">
+
+    <div class="container hero-grid">
+
+        <div class="reveal">
+
+            <div class="eyebrow">
+                Chicago Home Design Guide
+            </div>
+
+            <h1>
+                Can Japanese Design Principles Guide a Chicago Home Renovation?
+            </h1>
+
+            <p>
+                Japanese-inspired design can offer more than a visual style.
+                Its focus on simplicity, balance, natural materials, thoughtful
+                transitions and purposeful spaces can provide useful ideas for
+                modern Chicago homes.
+            </p>
+
+            <div class="buttons">
+
+                <a class="btn btn-primary"
+                   href="https://randrchicago.com/remodeling/home-renovation">
+                    EXPLORE HOME RENOVATION
+                </a>
+
+                <a class="btn btn-dark"
+                   href="https://randrchicago.com/blog/ghi6delbgpxth8wh6sehac4ep02izc">
+                    EXPLORE DESIGN IDEAS
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-image reveal">
+
+            <img
+                src="https://images.squarespace-cdn.com/content/v1/665fc9d43cdf457610d50193/1759427443264-HTSXTUWFSMZF6X588QT2/Gemini_Generated_Image_iut9bpiut9bpiut9.png"
+                alt="Japanese inspired shoji screens and modern Chicago home interior">
+
+            <div class="image-caption">
+                Japanese Inspired Interior
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- INTRO -->
+
+<section class="intro">
+
+    <div class="container intro-grid">
+
+        <div class="reveal">
+
+            <div class="label">
+                The Short Answer
+            </div>
+
+            <h2>
+                Yes, but the goal is balance rather than imitation.
+            </h2>
+
+        </div>
+
+
+        <div class="intro-copy reveal">
+
+            <p>
+                Japanese-inspired interiors can work particularly well in
+                contemporary homes because the underlying ideas are practical.
+                Instead of filling a room with decorative elements, the approach
+                asks homeowners to think carefully about light, proportion,
+                materials, movement and what the space actually needs.
+            </p>
+
+            <p>
+                For a Chicago homeowner, that can translate into calmer rooms,
+                better storage, cleaner transitions and stronger connections
+                between interior and exterior spaces.
+            </p>
+
+            <div class="answer-box">
+
+                <strong>Key takeaway:</strong>
+                You do not need to recreate a traditional Japanese home.
+                Select the principles that improve the way your Chicago home
+                functions and feels.
+
+            </div>
+
+            <a class="btn btn-primary"
+               href="https://randrchicago.com/remodeling/home-renovation">
+                PLAN YOUR HOME RENOVATION
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PRINCIPLES -->
+
+<section class="principles" id="principles">
+
+    <div class="container">
+
+        <div class="heading reveal">
+
+            <div class="label">
+                Design Principles
+            </div>
+
+            <h2>
+                Ideas worth bringing into a modern Chicago home.
+            </h2>
+
+            <p>
+                R&R Chicago's Japanese design guide explores several ways
+                traditional ideas can be interpreted for contemporary homes.
+            </p>
+
+        </div>
+
+
+        <div class="principle-grid">
+
+
+            <article class="card reveal">
+
+                <img
+                    src="https://images.squarespace-cdn.com/content/v1/665fc9d43cdf457610d50193/1759427443264-HTSXTUWFSMZF6X588QT2/Gemini_Generated_Image_iut9bpiut9bpiut9.png"
+                    alt="Shoji inspired sliding doors">
+
+                <div class="card-content">
+
+                    <div class="card-number">01</div>
+
+                    <h3>Shoji Inspired Screens</h3>
+
+                    <p>
+                        Sliding partitions can divide rooms without making
+                        the space feel permanently closed. Wood, glass and
+                        translucent materials can create a modern interpretation.
+                    </p>
+
+                    <a class="text-link"
+                       href="https://randrchicago.com/blog/ghi6delbgpxth8wh6sehac4ep02izc">
+                        READ THE DESIGN GUIDE →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <article class="card reveal">
+
+                <img
+                    src="https://images.squarespace-cdn.com/content/v1/665fc9d43cdf457610d50193/1759433604755-D9NKQIBXKFZG32Q71N20/Gemini_Generated_Image_s8jxyqs8jxyqs8jx.png"
+                    alt="Japanese inspired soaking tub">
+
+                <div class="card-content">
+
+                    <div class="card-number">02</div>
+
+                    <h3>Soaking Tubs</h3>
+
+                    <p>
+                        A compact soaking tub can turn an ordinary bathroom
+                        into a quieter retreat while using space efficiently.
+                    </p>
+
+                    <a class="text-link"
+                       href="https://randrchicago.com/remodeling/home-renovation">
+                        EXPLORE HOME RENOVATION →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <article class="card reveal">
+
+                <img
+                    src="https://images.squarespace-cdn.com/content/v1/665fc9d43cdf457610d50193/1759435534713-QWK6C10UDH1VIWDZ5IQ5/Gemini_Generated_Image_r4g87er4g87er4g8.png"
+                    alt="Tokonoma inspired alcove">
+
+                <div class="card-content">
+
+                    <div class="card-number">03</div>
+
+                    <h3>Intentional Alcoves</h3>
+
+                    <p>
+                        A small recessed display area can give artwork,
+                        plants or meaningful objects a deliberate place
+                        without creating visual clutter.
+                    </p>
+
+                    <a class="text-link"
+                       href="https://randrchicago.com/blog/ghi6delbgpxth8wh6sehac4ep02izc">
+                        SEE MORE PRINCIPLES →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <article class="card reveal">
+
+                <img
+                    src="https://images.squarespace-cdn.com/content/v1/665fc9d43cdf457610d50193/1759761180061-HSZYNWTWPNPJ2L9DF142/Gemini_Generated_Image_jz8mq8jz8mq8jz8m.png"
+                    alt="Japanese dry garden inspired interior">
+
+                <div class="card-content">
+
+                    <div class="card-number">04</div>
+
+                    <h3>Dry Garden Elements</h3>
+
+                    <p>
+                        Stone, gravel and carefully placed greenery can
+                        introduce a calming natural element even when space
+                        is limited.
+                    </p>
+
+                    <a class="text-link"
+                       href="https://randrchicago.com/remodeling/home-renovation">
+                        PLAN YOUR SPACE →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <article class="card reveal">
+
+                <img
+                    src="https://images.squarespace-cdn.com/content/v1/665fc9d43cdf457610d50193/1759761250723-LE7STOYDN4X57F9OVZFO/Gemini_Generated_Image_f5c796f5c796f5c7.png"
+                    alt="Natural wood Japanese inspired living room">
+
+                <div class="card-content">
+
+                    <div class="card-number">05</div>
+
+                    <h3>Natural Materials</h3>
+
+                    <p>
+                        Wood, woven textures, stone and simple finishes can
+                        introduce warmth without overwhelming the room.
+                    </p>
+
+                    <a class="text-link"
+                       href="https://randrchicago.com/blog/ghi6delbgpxth8wh6sehac4ep02izc">
+                        EXPLORE MATERIAL IDEAS →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <article class="card reveal">
+
+                <img
+                    src="https://images.squarespace-cdn.com/content/v1/665fc9d43cdf457610d50193/1759517012228-X8MEMRGHY895SVJ3SJD3/Gemini_Generated_Image_ba0xl8ba0xl8ba0x%2B%283%29.png"
+                    alt="Japanese inspired outdoor transition space">
+
+                <div class="card-content">
+
+                    <div class="card-number">06</div>
+
+                    <h3>Indoor Outdoor Connection</h3>
+
+                    <p>
+                        Thoughtful transitions between interior rooms,
+                        balconies, patios and gardens can make the home
+                        feel more connected to its surroundings.
+                    </p>
+
+                    <a class="text-link"
+                       href="https://randrchicago.com/remodeling/home-renovation">
+                        EXPLORE RENOVATION →
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- BALANCE -->
+
+<section class="balance">
+
+    <div class="container balance-grid">
+
+        <div class="balance-image reveal">
+
+            <img
+                src="https://images.squarespace-cdn.com/content/v1/665fc9d43cdf457610d50193/1759761250723-LE7STOYDN4X57F9OVZFO/Gemini_Generated_Image_f5c796f5c796f5c7.png"
+                alt="Natural materials and simple Japanese inspired interior">
+
+        </div>
+
+
+        <div class="balance-copy reveal">
+
+            <div class="label">
+                Beyond Aesthetic
+            </div>
+
+            <h2>
+                The real lesson is how the space feels and functions.
+            </h2>
+
+            <p>
+                A successful Japanese-inspired interior is not simply a room
+                filled with wood and neutral colors. The more useful lesson
+                is intentionality.
+            </p>
+
+            <p>
+                Every material, opening, piece of furniture and transition
+                should have a reason for being there.
+            </p>
+
+            <div class="points">
+
+                <div class="point">
+                    <span class="point-icon">✓</span>
+                    <span>Keep unnecessary visual clutter under control.</span>
+                </div>
+
+                <div class="point">
+                    <span class="point-icon">✓</span>
+                    <span>Use natural light as part of the design.</span>
+                </div>
+
+                <div class="point">
+                    <span class="point-icon">✓</span>
+                    <span>Choose materials that age gracefully.</span>
+                </div>
+
+                <div class="point">
+                    <span class="point-icon">✓</span>
+                    <span>Create storage that supports everyday routines.</span>
+                </div>
+
+            </div>
+
+            <a class="btn btn-primary"
+               href="https://randrchicago.com/remodeling/home-renovation">
+                DISCUSS YOUR RENOVATION
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CHICAGO -->
+
+<section class="chicago" id="chicago">
+
+    <div class="container chicago-grid">
+
+        <div class="reveal">
+
+            <div class="label">
+                Chicago Context
+            </div>
+
+            <h2>
+                How can these ideas work in a Chicago home?
+            </h2>
+
+            <p>
+                Chicago homes can have very different layouts, from compact
+                city residences to larger homes in the surrounding suburbs.
+                The principles should therefore be adapted to the architecture
+                and lifestyle of each property.
+            </p>
+
+            <div class="chicago-list">
+
+                <div>Use natural materials to add warmth.</div>
+
+                <div>Use screens to create flexible zones.</div>
+
+                <div>Bring greenery into underused spaces.</div>
+
+                <div>Use layered lighting for darker areas.</div>
+
+                <div>Make storage part of the architecture.</div>
+
+            </div>
+
+            <a class="btn btn-primary"
+               href="https://randrchicago.com/remodeling/home-renovation">
+                EXPLORE CHICAGO HOME RENOVATION
+            </a>
+
+        </div>
+
+
+        <div class="chicago-image reveal">
+
+            <img
+                src="https://images.squarespace-cdn.com/content/v1/665fc9d43cdf457610d50193/1759761180061-HSZYNWTWPNPJ2L9DF142/Gemini_Generated_Image_jz8mq8jz8mq8jz8m.png"
+                alt="Japanese inspired garden connected to a modern interior">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- MATERIALS -->
+
+<section class="materials" id="materials">
+
+    <div class="container">
+
+        <div class="heading reveal">
+
+            <div class="label">
+                Material Palette
+            </div>
+
+            <h2>
+                Simple materials can create a richer atmosphere.
+            </h2>
+
+            <p>
+                Material selection is one of the easiest ways to introduce
+                Japanese-inspired qualities without making the entire home
+                feel themed.
+            </p>
+
+        </div>
+
+
+        <div class="material-grid">
+
+            <div class="material reveal">
+
+                <div class="material-icon">W</div>
+
+                <h3>Wood</h3>
+
+                <p>
+                    Warm timber tones can soften contemporary architecture
+                    and introduce visual continuity.
+                </p>
+
+            </div>
+
+
+            <div class="material reveal">
+
+                <div class="material-icon">S</div>
+
+                <h3>Stone</h3>
+
+                <p>
+                    Stone adds texture and an organic quality to kitchens,
+                    bathrooms and entry spaces.
+                </p>
+
+            </div>
+
+
+            <div class="material reveal">
+
+                <div class="material-icon">L</div>
+
+                <h3>Linen</h3>
+
+                <p>
+                    Light textiles can filter sunlight and add softness without
+                    making a room feel heavy.
+                </p>
+
+            </div>
+
+
+            <div class="material reveal">
+
+                <div class="material-icon">G</div>
+
+                <h3>Greenery</h3>
+
+                <p>
+                    Plants can bring natural variation and create a stronger
+                    relationship between interior and exterior spaces.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div style="margin-top:35px;" class="reveal">
+
+            <a class="btn btn-primary"
+               href="https://randrchicago.com/blog/ghi6delbgpxth8wh6sehac4ep02izc">
+                SEE MORE JAPANESE DESIGN IDEAS
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- RENOVATION PROCESS -->
+
+<section class="renovation">
+
+    <div class="container renovation-grid">
+
+        <div class="renovation-image reveal">
+
+            <img
+                src="https://images.squarespace-cdn.com/content/v1/665fc9d43cdf457610d50193/f18a06b0-9005-4c85-a790-629015876bc4/Gold-Coast-9.jpg"
+                alt="Chicago home kitchen before renovation">
+
+        </div>
+
+
+        <div class="reveal">
+
+            <div class="label">
+                From Idea To Execution
+            </div>
+
+            <h2>
+                Good design starts before construction.
+            </h2>
+
+            <p style="margin-top:20px;color:#666;">
+                If you want to introduce Japanese-inspired ideas into an
+                existing Chicago property, start with the way the home is
+                currently used rather than choosing finishes first.
+            </p>
+
+
+            <div class="steps">
+
+                <div class="step">
+
+                    <div class="step-number">01</div>
+
+                    <div>
+                        <h3>Understand the existing space</h3>
+
+                        <p>
+                            Identify circulation problems, unused areas,
+                            storage issues and opportunities for natural light.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="step">
+
+                    <div class="step-number">02</div>
+
+                    <div>
+                        <h3>Choose the principles that fit</h3>
+
+                        <p>
+                            Decide whether screens, natural materials,
+                            alcoves, greenery or simpler layouts make sense.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="step">
+
+                    <div class="step-number">03</div>
+
+                    <div>
+                        <h3>Develop the design</h3>
+
+                        <p>
+                            Connect the selected ideas to the home's architecture,
+                            budget and everyday requirements.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="step">
+
+                    <div class="step-number">04</div>
+
+                    <div>
+                        <h3>Build with intention</h3>
+
+                        <p>
+                            Coordinate the construction details so the finished
+                            result remains functional as well as beautiful.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <a class="btn btn-primary"
+               href="https://randrchicago.com/remodeling/home-renovation">
+                START YOUR HOME RENOVATION
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FAQ -->
+
+<section class="faq" id="faq">
+
+    <div class="container">
+
+        <div class="faq-heading reveal">
+
+            <div class="label">
+                Frequently Asked Questions
+            </div>
+
+            <h2>
+                Common questions about Japanese-inspired home design.
+            </h2>
+
+        </div>
+
+
+        <div class="faq-wrap">
+
+            <details class="reveal">
+
+                <summary>
+                    Can Japanese-inspired design work in a Chicago home?
+                </summary>
+
+                <div class="answer">
+                    Yes. The ideas can be adapted to many Chicago homes.
+                    The important part is interpreting the principles around
+                    the home's architecture, available space and lifestyle.
+                </div>
+
+            </details>
+
+
+            <details class="reveal">
+
+                <summary>
+                    Do I need to completely redesign my house?
+                </summary>
+
+                <div class="answer">
+                    No. Small changes such as natural materials, better
+                    storage, sliding partitions, intentional lighting and
+                    greenery can introduce the approach without changing
+                    every room.
+                </div>
+
+            </details>
+
+
+            <details class="reveal">
+
+                <summary>
+                    What materials work well for this style?
+                </summary>
+
+                <div class="answer">
+                    Wood, stone, woven textures, natural fabrics and greenery
+                    can all contribute to a calm and understated interior.
+                </div>
+
+            </details>
+
+
+            <details class="reveal">
+
+                <summary>
+                    Can these ideas work in smaller homes?
+                </summary>
+
+                <div class="answer">
+                    Yes. In fact, ideas such as integrated storage, flexible
+                    partitions and compact soaking tubs can be especially useful
+                    when floor space is limited.
+                </div>
+
+            </details>
+
+
+            <details class="reveal">
+
+                <summary>
+                    How can I begin planning a Chicago renovation?
+                </summary>
+
+                <div class="answer">
+                    Start by identifying the spaces that need improvement,
+                    then discuss your goals, layout and design direction with
+                    a professional design-build team.
+                </div>
+
+            </details>
+
+        </div>
+
+
+        <div style="text-align:center;margin-top:40px;" class="reveal">
+
+            <a class="btn btn-primary"
+               href="https://randrchicago.com/remodeling/home-renovation">
+                TALK ABOUT YOUR PROJECT
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FINAL CTA -->
+
+<section class="final-cta">
+
+    <div class="container final-grid">
+
+        <div>
+
+            <h2>
+                Bring thoughtful design into your Chicago home.
+            </h2>
+
+            <p>
+                Explore R&R Chicago's renovation services and turn the ideas
+                that fit your lifestyle into a functional, timeless space.
+            </p>
+
+        </div>
+
+        <a class="btn"
+           href="https://randrchicago.com/remodeling/home-renovation">
+            START A CONVERSATION
+        </a>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+    <div class="container">
+
+        <div class="footer-grid">
+
+            <div>
+
+                <div class="logo" style="color:#fff;">
+                    R&R
+                    <span>CHICAGO DESIGN-BUILD</span>
+                </div>
+
+                <p style="margin-top:18px;max-width:400px;">
+                    Thoughtful design and construction for functional,
+                    timeless spaces.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>Design Ideas</h3>
+
+                <div class="footer-links">
+
+                    <a href="https://randrchicago.com/blog/ghi6delbgpxth8wh6sehac4ep02izc">
+                        Japanese Design Principles
+                    </a>
+
+                    <a href="https://randrchicago.com/remodeling/home-renovation">
+                        Home Renovation
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div>
+
+                <h3>Start Planning</h3>
+
+                <div class="footer-links">
+
+                    <a href="https://randrchicago.com/remodeling/home-renovation">
+                        Home Renovation Services
+                    </a>
+
+                    <a href="https://randrchicago.com/blog/ghi6delbgpxth8wh6sehac4ep02izc">
+                        Design Guide
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+            © 2025 R&R Chicago Design-Build. All rights reserved.
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script>
+
+const revealElements = document.querySelectorAll(".reveal");
+
+const observer = new IntersectionObserver((entries) => {
+
+    entries.forEach(entry => {
+
+        if(entry.isIntersecting){
+
+            entry.target.classList.add("show");
+
+        }
+
+    });
+
+},{
+    threshold:0.12
+});
+
+revealElements.forEach(element => {
+    observer.observe(element);
+});
+
+</script>
+
+</body>
+</html>
